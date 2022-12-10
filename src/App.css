@@ -1,0 +1,36 @@
+.App {
+  max-width: 1235px;
+  background-color: #0079bf;
+  font-family: "Roboto";
+  margin: 10px auto;
+  min-height: 700px;
+  display: grid;
+  grid-template-rows: 55px 1fr 55px;
+  box-sizing: border-box;
+}
+.Main {
+  background-color: #0079bf;
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+@media (max-width: 610px) {
+  .Footer {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #00c6fb, #005bea);
+}

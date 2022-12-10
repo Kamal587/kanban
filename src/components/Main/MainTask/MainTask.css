@@ -1,0 +1,43 @@
+.root {
+  background-color: white;
+  font-family: "Roboto";
+  margin: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.titleExit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 25px;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.imgExit {
+  width: 30px;
+}
+
+.descriptionText {
+  width: 100%;
+
+  margin-top: 20px;
+  min-height: 100px;
+  border-style: none;
+  color: #000000;
+  font-size: 18px;
+  line-height: 21 px;
+  font-family: "Roboto-Regular";
+}
+
+.descriptionText:hover {
+  cursor: pointer;
+}
